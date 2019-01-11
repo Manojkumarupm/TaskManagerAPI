@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskManager.BL.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:TaskManager.BL.Fakes.ShimTaskCrud">
+            <summary>Shim type of TaskManager.BL.TaskCrud</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.ShimTaskCrud.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.ShimTaskCrud.#ctor(TaskManager.BL.TaskCrud)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AddTaskTaskInformation">
+            <summary>Sets the shim of TaskCrud.AddTask(TaskInformation i)</summary>
+        </member>
+        <member name="T:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances.AddTaskTaskInformation">
+            <summary>Sets the shim of TaskCrud.AddTask(TaskInformation i)</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances.GetAllTasks">
+            <summary>Sets the shim of TaskCrud.GetAllTasks()</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances.GetTaskInt32">
+            <summary>Sets the shim of TaskCrud.GetTask(Int32 TaskId)</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances.RemoveTaskInt32">
+            <summary>Sets the shim of TaskCrud.RemoveTask(Int32 TaskId)</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.AllInstances.UpdateTaskTaskInformation">
+            <summary>Sets the shim of TaskCrud.UpdateTask(TaskInformation i)</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.ShimTaskCrud.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.ShimTaskCrud.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.Constructor">
+            <summary>Sets the shim of TaskCrud.TaskCrud()</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.GetAllTasks">
+            <summary>Sets the shim of TaskCrud.GetAllTasks()</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.GetTaskInt32">
+            <summary>Sets the shim of TaskCrud.GetTask(Int32 TaskId)</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.RemoveTaskInt32">
+            <summary>Sets the shim of TaskCrud.RemoveTask(Int32 TaskId)</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.ShimTaskCrud.UpdateTaskTaskInformation">
+            <summary>Sets the shim of TaskCrud.UpdateTask(TaskInformation i)</summary>
+        </member>
+        <member name="T:TaskManager.BL.Fakes.StubTaskCrud">
+            <summary>Stub type of TaskManager.BL.TaskCrud</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.StubTaskCrud.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.StubTaskCrud.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TaskManager.BL.Fakes.StubTaskCrud.InitializeStub">
+            <summary>Initializes a new instance of type StubTaskCrud</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.StubTaskCrud.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TaskManager.BL.Fakes.StubTaskCrud.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
